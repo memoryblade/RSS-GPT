@@ -4,15 +4,16 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>Web Excursions for May 6th, 2025</title>
 <link>https://brett.trpstra.net/link/535/17022994/web-excursions-for-may-6th-2025</link>
 <guid>https://brett.trpstra.net/link/535/17022994/web-excursions-for-may-6th-2025</guid>
 <content:encoded><![CDATA[
 <div> 。最后换行输出'标签：'，列出适合这篇文章的5个标签，用中文，用、分隔，每个标签不超过4个字，最后不要任何标点或空格。例如：标签：VPN、Git、编程、隐私、工具
-</think>
 
-VPN、BashBuddy、Servo、Git、终端助手<br><br>总结：<br>1. 推荐一款每月约5美元的全隐私VPN，不记录日志且无需关联邮箱，但与TailScale不兼容。<br>2. BashBuddy是AI驱动的终端助手，支持通过自然语言生成命令。<br>3. Servo是用Rust开发的开源网页渲染引擎，支持WebGL/WebGPU，适用于多种平台，可能挑战WebKit的垄断地位。<br>4. 提及复古打字机的ASCII艺术创作及Git客户端Tower的推广。<br>5. 文章整合了技术工具、隐私方案及开发资源，涵盖VPN、编程工具和开源项目等要点。
+
+VPN、BashBuddy、Servo、Git、终端助手<br /><br />总结：<br />1. 推荐一款每月约5美元的全隐私VPN，不记录日志且无需关联邮箱，但与TailScale不兼容。<br />2. BashBuddy是AI驱动的终端助手，支持通过自然语言生成命令。<br />3. Servo是用Rust开发的开源网页渲染引擎，支持WebGL/WebGPU，适用于多种平台，可能挑战WebKit的垄断地位。<br />4. 提及复古打字机的ASCII艺术创作及Git客户端Tower的推广。<br />5. 文章整合了技术工具、隐私方案及开发资源，涵盖VPN、编程工具和开源项目等要点。
 标签：VPN、终端助手、开源、Git、编程工具 <div>
 <p><img src="https://cdn3.brettterpstra.com/uploads/2017/03/web-exc-map.jpg" /></p>
 
@@ -54,9 +55,7 @@ VPN、BashBuddy、Servo、Git、终端助手<br><br>总结：<br>1. 推荐一款
         else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/17022994.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2025-05-06T08:00:00-05:00</pubDate>
-<pubDate>2025-05-06T08:00:00-05:00</pubDate>
 </item>
-
 <item>
 <title>Mac File-Finding Gems</title>
 <link>https://brett.trpstra.net/link/535/17020713/mac-file-finding-gems</link>
