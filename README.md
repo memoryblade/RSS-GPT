@@ -56,9 +56,4 @@ I will consider hosting more feeds in the future. Email me or submit an issue if
 
 - https://brett.trpstra.net/brettterpstra -> https://memoryblade.github.io/RSS-GPT/brett-terpstra.xml
 - https://meta.appinn.net/tag/chrome.rss, https://meta.appinn.net/tag/ios.rss, https://meta.appinn.net/tag/macos.rss -> https://memoryblade.github.io/RSS-GPT/appinn.xml
-- https://rknight.me/feed.xml -> https://memoryblade.github.io/RSS-GPT/robb-knight.xml
-- https://stephanango.com/feed.xml -> https://memoryblade.github.io/RSS-GPT/steph-ango.xml
-- https://lopespm.com/atom.xml -> https://memoryblade.github.io/RSS-GPT/byte-tank.xml
-- https://rsshub.app/paulgraham/articles -> https://memoryblade.github.io/RSS-GPT/paul-graham.xml
-- https://nesslabs.com/feed -> https://memoryblade.github.io/RSS-GPT/ness-labs.xml
-- https://manuelmoreale.com/feed/rss -> https://memoryblade.github.io/RSS-GPT/manuel-moreale.xml
+- https://www.36kr.com/feed -> https://memoryblade.github.io/RSS-GPT/36kr-sum.xml
