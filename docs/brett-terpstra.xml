@@ -4,6 +4,570 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Mac File-Finding Gems</title>
+<link>https://brett.trpstra.net/link/535/17020713/mac-file-finding-gems</link>
+<guid>https://brett.trpstra.net/link/535/17020713/mac-file-finding-gems</guid>
+<content:encoded><![CDATA[
+
+<p><img class="header" height="226" src="https://cdn3.brettterpstra.com/uploads/2025/04/searching-header-rb.7481.jpg" style="margin: 0 auto; clear: both;" width="800" /></p>
+
+<p>You&rsquo;re probably familiar with Spotlight, but there are other ways to find files on your Mac. And some of them don&rsquo;t get enough love.</p>
+
+<p>I&rsquo;ve tried all of these, and I like them all for different reasons. I&rsquo;m generally happy with HoudahSpot when Spotlight fails me, but I wanted to point these out because they fit specific use-cases &mdash; maybe ones you run into often enough to try them out.</p>
+
+<blockquote class="tip">
+  <p>This article refers multiple times to the Hyper key. If you haven&rsquo;t followed me over the years, the Hyper key is a combination of <span class="keycombo separated" title="Control-Option-Shift-Command"><kbd class="mod symbol">&#8963;</kbd><span class="keycombo combiner">+</span><kbd class="mod symbol">&#8997;</kbd><span class="keycombo combiner">+</span><kbd class="mod symbol">&#8679;</kbd><span class="keycombo combiner">+</span><kbd class="mod symbol">&#8984;</kbd></span>, which I have assigned to my Capslock key <a href="https://brettterpstra.com/2017/06/15/a-hyper-key-with-karabiner-elements-full-instructions/">via Karabiner Elements</a>.</p>
+</blockquote>
+
+<h3 id="houdahspot">HoudahSpot</h3>
+
+<p><a href="https://www.houdah.com/houdahSpot/" title="File Search App for macOS">HoudahSpot</a> is my favorite Spotlight companion. It allows <em>extremely</em> configurable searches with saved templates and a great popup search. The results are easy to work with, with all of the capabilities you&rsquo;d have in Finder and elsewhere.</p>
+
+<p>I don&rsquo;t think I&rsquo;ve ever <em>not</em> been able to find a file I was looking for with HoudahSpot. These days I usually skip Spotlight and just open HoudahSpot&rsquo;s search, which I have configured on <span class="keycombo separated" title="Shift-Command-Space"><kbd class="mod symbol">&#8679;</kbd><span class="keycombo combiner">+</span><kbd class="mod symbol">&#8984;</kbd><span class="keycombo combiner">+</span><kbd class="key symbol">space</kbd></span>.</p>
+
+<p><a href="https://brettterpstra.com//uploads/2025/04/houdahspot-results@2x.jpg"><p><img src="https://cdn3.brettterpstra.com/uploads/2025/04/houdahspot-results.jpg" /></p></a></p>
+
+<blockquote class="tip">
+  <p>HoudahSpot has great tag autocomplete, so I use it a lot for tagging files. I have <a href="https://www.noodlesoft.com/" title="Simply Useful Software">Hazel</a> tag all new files in my Desktop and Downloads folder Purple, then I have a HoudahSpot search template that locates all Purple files within those directories (shallow search using a filter), and tag them within HoudahSpot so my <a href="https://brettterpstra.com/2013/12/24/tagfiler-updated/?referrer=searchlink" title="TagFiler updated">TagFiler</a> script can sort them into folders.</p>
+</blockquote>
+
+<h3 id="find-any-file">Find Any File</h3>
+
+<p><a href="https://findanyfile.app/" title="Find Any File (FAF)">Find Any File</a> (FAF) is another great complement to Spotlight. It searches in much the same way as Spotlight, with all kinds of criteria, but it can search network and attached drives that Spotlight can&rsquo;t. It can also search for text strings inside of zip files and even in binaries. And it can include Spotlight results in its own results, making it a pretty complete replacement for the built-in Spotlight search.</p>
+
+<p><a href="https://brettterpstra.com//uploads/2025/04/find-any-file-search@2x.jpg"><p><img src="https://cdn3.brettterpstra.com/uploads/2025/04/find-any-file-search.jpg" /></p></a></p>
+
+<p>FAF can create searches with multiple criteria, such as filename, extension, date, kind, and more. Its searches take more time than Spotlight, especially if you&rsquo;re searching network drives, and you have to manually set up the criteria (as opposed to using search syntax), but it will definitely find that file you were looking for.</p>
+
+<p><a href="https://brettterpstra.com//uploads/2025/04/find-any-file-results@2x.jpg"><p><img src="https://cdn3.brettterpstra.com/uploads/2025/04/find-any-file-results.jpg" /></p></a></p>
+
+<blockquote class="tip">
+  <p>I like that you have the option in the results window to display files in their directory heirarchy, grouped by location, making it easy to discern between similar matches.</p>
+</blockquote>
+
+<p>I have FAF&rsquo;s popup search configured to <span class="keycombo separated" title="Hyper (Control+Option+Shift+Command)-S"><kbd class="mod symbol">Hyper</kbd><span class="keycombo combiner">+</span><kbd class="key symbol">S</kbd></span>.</p>
+
+<h3 id="gotofile">GoToFile</h3>
+
+<p><a href="https://www.soma-zone.com/GoToFile/" title="Find any file. Instantly.">GoToFile</a> pops up a search field and displays results as an extension of the pop up, just like Spotlight does, but it has its own type of super powers.</p>
+
+<p><a href="https://brettterpstra.com//uploads/2025/04/gotofile-search@2x.jpg"><p><img src="https://cdn3.brettterpstra.com/uploads/2025/04/gotofile-search.jpg" /></p></a></p>
+
+<p>GoToFile is amazing if you have any idea what the filename you&rsquo;re looking for is, or recently touched/modified a file. It can quickly navigate through directories, performing fuzzy (or even regular expression) searches for filename. It can show you recent files, and can open files in their default application <em>or</em> in the front most app, making it a legitimate replacement for <strong>File-&gt;Open</strong>. Just saved a file in VS Code and want to open it in Firefox? You&rsquo;re a couple keystrokes away.</p>
+
+<p>GoToFile is intensely keyboard focused. You can navigate all of its features with shortcuts, narrow search criteria with special syntax, and mark or act on files with a few keystrokes.</p>
+
+<p>I have GoToFile set to <span class="keycombo separated" title="Hyper (Control+Option+Shift+Command)-F"><kbd class="mod symbol">Hyper</kbd><span class="keycombo combiner">+</span><kbd class="key symbol">F</kbd></span>.</p>
+
+<h3 id="ammonite">Ammonite</h3>
+
+<p><a href="https://www.soma-zone.com/Ammonite/" title="Tag visualizer and search utility">Ammonite</a> is from the same developer as GoToFile. It focuses on tags, which works for me because I have tagged all of my files for a decade, and prefer to search that way.</p>
+
+<p><a href="https://brettterpstra.com//uploads/2025/04/ammonite-window@2x.jpg"><p><img src="https://cdn3.brettterpstra.com/uploads/2025/04/ammonite-window.jpg" /></p></a></p>
+
+<p>Ammonite displays a tag cloud of all of the tags on your disk, with the font size weighted by how many times the tag is used. You just click on tags to drill down, left clicking includes only files with that tag, and right clicking <em>excludes</em> files with that tag.</p>
+
+<p>Also of interest to me, Ammonite indexes and searches DEVONthink databases (and is compatible with the latest v4 of DEVONthink). It can open results in DEVONthink, preview them internally, or even replicate groups of search results into new groups. Ammonite also indexes Obsidian vaults.</p>
+
+<p>You can even create tag hierarchies by tagging like &ldquo;Publisher&gt;Oreilly&rdquo; to create a Publisher top level, and an Oreilly subtag. I use my own tag hierarchy system with colons to separate, which works great in Spotlight but not so much in Ammonite. I wish it allowed you to specify the splitting character so my years of tagging like &ldquo;Publisher:Oreilly&rdquo; would have paid off in this app.</p>
+
+<p>Ammonite can be run as a Dock app or as a menu bar app, and you can assign a shortcut key to open the search panel. I launch Ammonite manually, though, and run it as a Dock app.</p>
+
+<blockquote class="tip">
+  <p>Side note: the developer of Ammonite and GoToFile is soma-zone, and <a href="https://www.soma-zone.com/">every single one of their apps</a> is useful. I mention <a href="https://www.soma-zone.com/LaunchControl/" title="The launchd GUI">LaunchControl</a> a lot, as it&rsquo;s the best way to manage launchd jobs. I&rsquo;ve never mentioned <a href="https://www.soma-zone.com/BackupLoupe/" title="One Stop Shop for Time Machine">BackupLoupe</a> before, but I use it all the time &mdash; it&rsquo;s a way better way to interact with Time Machine backups than Time Machine itself.</p>
+</blockquote>
+
+<h3 id="leap">Leap</h3>
+
+<p><a href="https://ironicsoftware.com/leap/" title="Leap from Ironic Software">Leap</a> is another tag-based search app. It allows you to drill down with more of a file browser than Ammonite, and is excellent for actually doing the tagging, with great autocomplete and ratings support. It has the same tag cloud view as a pane on the left.</p>
+
+<p><a href="https://brettterpstra.com//uploads/2025/04/leap-window@2x.jpg"><p><img src="https://cdn3.brettterpstra.com/uploads/2025/04/leap-window.jpg" /></p></a></p>
+
+<blockquote class="tip">
+  <p>One very nice feature of Leap is that it backs up tags and ratings. Tags are pretty solid these days, but Finder can still lose the metadata in some cases. Leap keeps your tags safe. It also has a handy feature that allows you to show related documents based on tags.</p>
+</blockquote>
+
+<p>Leap has been around for a long, long time, and I&rsquo;ve had a license since back when we had to use Open Meta tagging because Finder didn&rsquo;t have tagging support. It&rsquo;s been updated relatively recently, and continues to be a great solution if you use tags for file management.</p>
+
+<h3 id="trickster">Trickster</h3>
+
+<p><a href="https://www.apparentsoft.com/trickster" title="Trickster from Apparent Software">Trickster</a> is for finding recent files. It lives in your menu bar and pops up with a shortcut, and the window is detachable and pinnable. It has customizable filters for different file types, locations, names, and you can even filter by tags.</p>
+
+<p><a href="https://brettterpstra.com//uploads/2025/05/trickster-search@2x.jpg"><p><img src="https://cdn3.brettterpstra.com/uploads/2025/05/trickster-search.jpg" /></p></a></p>
+
+<p>If you want quick access to files you just downloaded, or were working on in one app and you want to open the same file in another app, Trickster is perfect for you. (It&rsquo;s great for opening the Markdown file you were just editing in your text editor in Marked.)</p>
+
+<p>I have Trickster assigned to <span class="keycombo separated" title="Hyper (Control+Option+Shift+Command)-Z"><kbd class="mod symbol">Hyper</kbd><span class="keycombo combiner">+</span><kbd class="key symbol">Z</kbd></span>.</p>
+
+<h3 id="default-folder-x">Default Folder X</h3>
+
+<p><a href="https://www.stclairsoft.com/DefaultFolderX/index.html" title="Default Folder X from St. Clair Software">Default Folder X</a> is a utility I&rsquo;m always running. It adds a bunch of functionality to Open and Save dialogs on macOS. What I use most often is its expansion of submenus in dropdowns, but it also provides a Quick Search that can quickly locate just about any file or folder you&rsquo;ve accessed recently, provided you know the name.</p>
+
+<p><a href="https://brettterpstra.com//uploads/2025/05/default-folder-x-search@2x.jpg"><p><img src="https://cdn3.brettterpstra.com/uploads/2025/05/default-folder-x-search.jpg" /></p></a></p>
+
+<p><a href="https://brettterpstra.com//uploads/2025/05/default-folder-x-types-400@2x.jpg"><p><img src="https://cdn3.brettterpstra.com/uploads/2025/05/default-folder-x-types-200.jpg" /></p></a>DFX&rsquo;s Quick Search provides a &ldquo;Search in Spotlight&rdquo; option you can select if your search doesn&rsquo;t reveal what you&rsquo;re looking for. The results of the Spotlight search are shown in the Quick Search popup, as opposed to actually opening the Spotlight popup. It also has a few keyboard shortcuts for narrowing the search type, e.g. just apps, folders, or files. This makes keyboard-only searching really easy.</p>
+
+<h3 id="hookmark">Hookmark</h3>
+
+<p><a href="https://hookproductivity.com/" title="Links beat searching">Hookmark</a> isn&rsquo;t technically a search app, but I frequently use it for easily accessing files I&rsquo;m working on. Whenever I&rsquo;m working on a project, I&rsquo;m switching between documents by hooking them together with Hookmark, and then related files, websites, and OmniFocus tasks are just a shortcut away.</p>
+
+<p><a href="https://brettterpstra.com//uploads/2025/04/hookmark-linked@2x.jpg"><p><img src="https://cdn3.brettterpstra.com/uploads/2025/04/hookmark-linked.jpg" /></p></a></p>
+
+<p>I have Hookmark assigned to <span class="keycombo separated" title="Hyper (Control+Option+Shift+Command)-G"><kbd class="mod symbol">Hyper</kbd><span class="keycombo combiner">+</span><kbd class="key symbol">G</kbd></span>.</p>
+
+<h3 id="wrapping-up">Wrapping Up</h3>
+
+<p><span class="pullquote left">
+These are my favorite search apps. I always want my files to be easy to find and access. HoudahSpot is my workhorse, and my first stop for most searching and tagging. Leap and Ammonite complement my tag-based filing system perfectly. Trickster, GoToFile, and Hookmark are great for recently-accessed or downloaded files and things I&rsquo;m currently working on.  Find Any File is so good at searching my Synology that I have no fear of archiving projects I&rsquo;m no longer working on.
+</span></p>
+
+<p>What do I actually use every day? I&rsquo;m always running and using Default Folder X and Hookmark, but for searching I  most often use HoudahSpot and Find Any File (for NAS searching) because of their more advanced query abilities. But I love all of these apps.</p>
+
+<p>I hope these are useful tips for your own file searching. If you have any suggestions of your own, please add a comment to start a discussion in the forum!</p>
+
+<blockquote class="alert">
+  <p>Apps mentioned in this article:</p>
+
+  <ul>
+    <li><a href="https://www.soma-zone.com/Ammonite/" title="Tag visualizer and search utility">Ammonite</a></li>
+    <li><a href="https://www.stclairsoft.com/DefaultFolderX/index.html" title="Default Folder X from St. Clair Software">Default Folder X</a></li>
+    <li><a href="https://findanyfile.app/" title="Find Any File (FAF)">Find Any File</a></li>
+    <li><a href="https://www.soma-zone.com/GoToFile/" title="Find any file. Instantly.">GoToFile</a></li>
+    <li><a href="https://www.noodlesoft.com/" title="Simply Useful Software">Hazel</a></li>
+    <li><a href="https://hookproductivity.com/" title="Links beat searching">Hookmark</a></li>
+    <li><a href="https://www.houdah.com/houdahSpot/" title="File Search App for macOS">HoudahSpot</a></li>
+    <li><a href="https://ironicsoftware.com/leap/" title="Leap from Ironic Software">Leap</a></li>
+    <li><a href="https://www.apparentsoft.com/trickster" title="Trickster from Apparent Software">Trickster</a></li>
+  </ul>
+</blockquote>
+
+<p>Like or share this post <a href="https://hachyderm.io/users/ttscoff/statuses/114438507545728123" target="_blank" title="This post on Mastodon">on Mastodon</a>, <a href="https://bsky.app/intent/compose?text=Mac+File-Finding+Gems%0A%0Ahttps%3A%2F%2Fbrettterpstra.com%2F2025%2F05%2F02%2Fmac-file-finding-gems%2F" target="_blank" title="Share on Bluesky">Bluesky</a>, or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2025%2F05%2F02%2Fmac-file-finding-gems%2F&amp;text=Mac+File-Finding+Gems&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2025%2F05%2F02%2Fmac-file-finding-gems%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+<hr style="margin: 40px 0;" />
+
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd
+        like to help out.</a></p>
+<p>Find Brett on <a href="https://hachyderm.io/@ttscoff" rel="me">Mastodon</a>, <a href="https://bsky.app/profile/ttscoff.bsky.social">Bluesky</a>, <a href="https://github.com/ttscoff">GitHub</a>, and <a href="https://brettterpstra.com/elsewhere">everywhere
+        else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/17020713.gif" width="1" />
+]]></content:encoded>
+<pubDate>2025-05-02T08:00:00-05:00</pubDate>
+<pubDate>2025-05-02T08:00:00-05:00</pubDate>
+</item>
+<item>
+<title>Web Excursions for May 1st, 2025</title>
+<link>https://brett.trpstra.net/link/535/17020153/web-excursions-for-may-1st-2025</link>
+<guid>https://brett.trpstra.net/link/535/17020153/web-excursions-for-may-1st-2025</guid>
+<content:encoded><![CDATA[
+
+<p><img src="https://cdn3.brettterpstra.com/uploads/2017/03/web-exc-map.jpg" /></p>
+
+<p>Web excursions brought to you in partnership with Backblaze. <a href="https://secure.backblaze.com/r/00dszk">Back up everything.</a></p>
+
+<dl>
+  <dt><a href="https://cotypist.app/">Cotypist – AI Autocomplete for Mac</a></dt>
+  <dd>Cotypist autocompletes using AI in any text field on your Mac, and its completions are really good. I assigned the same keyboard shortcuts I use in Fish for accepting completions, so the muscle memory is there. I&rsquo;m both already used to it and frequently impressed by it.</dd>
+  <dt><a href="https://visdeurbel.nl/en/">The Fish Doorbell — The Fish Doorbell</a></dt>
+  <dd>This is adorable.</dd>
+  <dd>
+    <blockquote>
+      <p>Did you spot a fish? Press the Fish Doorbell! This alerts our lock operator to let the fish through. The Fish Doorbell is in Utrecht, NL.</p>
+    </blockquote>
+  </dd>
+  <dt><a href="https://www.joshwcomeau.com/css/custom-css-reset/">A Modern CSS Reset</a></dt>
+  <dd>A modern take on the CSS Reset from Josh W. Comeau:</dd>
+  <dd>
+    <blockquote>
+      <p>I have a set of baseline CSS styles that come with me from project to project. In the past, I&rsquo;d use a typical CSS reset, but times have changed, and I believe I have a better set of global styles!</p>
+    </blockquote>
+  </dd>
+  <dt><a href="https://www.tintd.app/">Tintd</a></dt>
+  <dd>
+    <blockquote>
+      <p>Customize and colorize your MacOS folder icons in one click. Choose from 1500+ icons, create custom colors, and make your Desktop beautiful.</p>
+    </blockquote>
+  </dd>
+  <dd>
+    <p>A handy little app I&rsquo;ve enjoyed using.</p>
+  </dd>
+</dl>
+
+<p>Backblaze securely backs up your entire computer to the cloud, affordably and reliably. I trust it with all my data. <a href="https://secure.backblaze.com/r/00dszk">Check it out today.</a></p>
+
+<p>Like or share this post <a href="https://hachyderm.io/users/ttscoff/statuses/114433980755650096" target="_blank" title="This post on Mastodon">on Mastodon</a>, <a href="https://bsky.app/intent/compose?text=Web+Excursions+for+May+1st%2C+2025%0A%0Ahttps%3A%2F%2Fbrettterpstra.com%2F2025%2F05%2F01%2Fweb-excursions-for-may-1st-2025%2F" target="_blank" title="Share on Bluesky">Bluesky</a>, or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2025%2F05%2F01%2Fweb-excursions-for-may-1st-2025%2F&amp;text=Web+Excursions+for+May+1st%2C+2025&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2025%2F05%2F01%2Fweb-excursions-for-may-1st-2025%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+<hr style="margin: 40px 0;" />
+
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd
+        like to help out.</a></p>
+<p>Find Brett on <a href="https://hachyderm.io/@ttscoff" rel="me">Mastodon</a>, <a href="https://bsky.app/profile/ttscoff.bsky.social">Bluesky</a>, <a href="https://github.com/ttscoff">GitHub</a>, and <a href="https://brettterpstra.com/elsewhere">everywhere
+        else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/17020153.gif" width="1" />
+]]></content:encoded>
+<pubDate>2025-05-01T13:11:00-05:00</pubDate>
+<pubDate>2025-05-01T13:11:00-05:00</pubDate>
+</item>
+<item>
+<title>Celebrate your Mac with the Eternal Storms software bundle</title>
+<link>https://brett.trpstra.net/link/535/17019964/celebrate-your-mac-with-the-eternal-storms-software-bundle</link>
+<guid>https://brett.trpstra.net/link/535/17019964/celebrate-your-mac-with-the-eternal-storms-software-bundle</guid>
+<content:encoded><![CDATA[
+
+<p>Thanks to Eternal Storms for sponsoring BrettTerpstra.com this week! I&rsquo;ve long been a fan of Yoink and ScreenFloat, so I highly recommend taking advantage of this offer!</p>
+
+<p><a href="https://eternalstorms.at/bundle" rel="nofollow"><p><img src="https://cdn3.brettterpstra.com/uploads/2025/04/BundleBanner.jpg" /></p></a></p>
+
+<p>Celebrate your Mac with the Eternal Storms Software Productivity Bundle &mdash; a collection of four awesome Mac apps, at one great discounted price!</p>
+
+<p>It includes the following critically acclaimed apps:</p>
+
+<ul>
+  <li>
+    <p>Yoink: A &ldquo;file shelf&rdquo; that makes drag-and-drop a whole lot easier: just drag a file or app-content like images from a website to the edge of your screen, and Yoink gives you a temporary shelf to place them in, so you&rsquo;re free to navigate to their final destination on your disk.</p>
+  </li>
+  <li>
+    <p>ScreenFloat: Your Screen Capture All-Rounder. From floating screenshots that help you keep things in mind, over iCloud-synced storage, organization, and vast editing and annotation capabilities, to OCR and QR-code recognition and more, if you take screenshots or record your screen, it might become your new best friend.</p>
+  </li>
+  <li>
+    <p>Transloader: Start downloads on your Mac, remotely from your iPhone, iPad, and other Macs. No more emailing yourself links, or weird AirDrop workarounds.</p>
+  </li>
+  <li>
+    <p>DeskMat: Cover up the mess on your Desktop, for cleaner streams, video conferencing, screen sharing, and distraction-free work!</p>
+  </li>
+</ul>
+
+<p>Enjoy your Mac even more, with apps that help you get stuff done!</p>
+
+<p>Check out the Eternal Storms Software Productivity Bundle <a href="https://eternalstorms.at/bundle" rel="nofollow">right now on the website</a> or directly <a href="https://eternalstorms.at/maspblink" rel="nofollow">on the Mac App Store</a> and get Yoink, ScreenFloat, Transloader and DeskMat at 20% off! (Price varies by region.)</p>
+
+<p>Like or share this post <a href="https://hachyderm.io/users/ttscoff/statuses/114432732841999020" target="_blank" title="This post on Mastodon">on Mastodon</a>, <a href="https://bsky.app/intent/compose?text=Celebrate+your+Mac+with+the+Eternal+Storms+software+bundle%0A%0Ahttps%3A%2F%2Fbrettterpstra.com%2F2025%2F05%2F01%2Fcelebrate-your-mac-with-the-eternal-storms-software-bundle%2F" target="_blank" title="Share on Bluesky">Bluesky</a>, or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2025%2F05%2F01%2Fcelebrate-your-mac-with-the-eternal-storms-software-bundle%2F&amp;text=Celebrate+your+Mac+with+the+Eternal+Storms+software+bundle&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2025%2F05%2F01%2Fcelebrate-your-mac-with-the-eternal-storms-software-bundle%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+<hr style="margin: 40px 0;" />
+
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd
+        like to help out.</a></p>
+<p>Find Brett on <a href="https://hachyderm.io/@ttscoff" rel="me">Mastodon</a>, <a href="https://bsky.app/profile/ttscoff.bsky.social">Bluesky</a>, <a href="https://github.com/ttscoff">GitHub</a>, and <a href="https://brettterpstra.com/elsewhere">everywhere
+        else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/17019964.gif" width="1" />
+]]></content:encoded>
+<pubDate>2025-05-01T08:00:00-05:00</pubDate>
+<pubDate>2025-05-01T08:00:00-05:00</pubDate>
+</item>
+<item>
+<title>Leader Key and Bunch</title>
+<link>https://brett.trpstra.net/link/535/17019130/leader-key-and-bunch</link>
+<guid>https://brett.trpstra.net/link/535/17019130/leader-key-and-bunch</guid>
+<content:encoded><![CDATA[
+
+<p><img class="header" height="226" src="https://cdn3.brettterpstra.com/uploads/2025/04/leader-bunch-rb.7481.jpg" style="margin: 0 auto; clear: both;" width="800" /></p>
+<p>I&rsquo;ve been playing around with a free app called <a href="https://github.com/mikker/LeaderKey.app">Leader Key</a> from <a href="https://mastodon.social/@mikker">@mikker</a>, and realized it could be used very effectively with <a href="https://bunchapp.co">Bunch</a>. It takes a little manual setup, but it&rsquo;s not hard.</p>
+
+<p>Leader Key is an interesting launcher app that lets you assign single letter keystrokes to launch apps, urls, run commands, or open folders. Yes, all of this can be done fairly easily with Alfred or LaunchBar, but I really like the single-key approach. Once you develop muscle memory for an app, it&rsquo;s faster than LaunchBar for me. Not a big difference, but it&rsquo;s fun to play with. And you can nest key commands to make launcher groups that are 2+ keystrokes, usually assigned mnemonically, so <span class="keycombo separated" title="F,d"><kbd class="key symbol">f,d</kbd></span> could open &ldquo;Folder&rdquo;, &ldquo;Desktop&rdquo;, for example.</p>
+
+<p>Bunch has a <a href="https://bunchapp.co/docs/integration/url-handler/">URL handler</a> that can, among other thing, instantly launch/toggle Bunches. And Leader Key can take a url handler URL. It&rsquo;s that simple.</p>
+
+<p>To open a Bunch with a url, just use <code class="language-plaintext highlighter-rouge">x-bunch://open/NAME OF BUNCH</code>. You
+can also use <code class="language-plaintext highlighter-rouge">/toggle</code> or <code class="language-plaintext highlighter-rouge">/close</code> to handle different actions.</p>
+
+<p><img src="https://cdn3.brettterpstra.com/uploads/2025/04/leader-bunch-config.jpg" /></p>
+
+<p>Just add keys for your favorite Bunches and launch them with keystrokes. You can make this super simple by making them single-key launchers (at the top level of Leader Key), but I&rsquo;ve hidden them behind the <span class="keycombo separated" title="B"><kbd class="key symbol">B</kbd></span> key to keep things clean.</p>
+
+<p>You can potentially speed up the process of adding Bunches to Leader Key by using the JSON config file and just copy/pasting the block for a key.</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code><span class="p">{</span><span class="w">
+      </span><span class="nl">"actions"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+        </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"key"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"c"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"label"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"Code"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"type"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"url"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"value"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"x-bunch://open/code"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"key"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"d"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"label"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"New Dimspiration"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"type"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"url"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"value"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"x-bunch://open/dimspiration"</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+      </span><span class="p">],</span><span class="w">
+      </span><span class="nl">"key"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"b"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"label"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"Bunch"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"type"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"group"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>Just go into <strong>Settings</strong> in Leader Key and click &ldquo;Save to file.&rdquo; Then in <strong>Settings-&gt;Advanced</strong>, click &ldquo;Reveal&rdquo; under the file path to get to the config file.</p>
+
+<p>If you&rsquo;re looking to add better keyboard launching to <a href="https://bunchapp.co">Bunch</a>, <a href="https://github.com/mikker/LeaderKey.app">Leader Key</a> is a free solution and easy to work with.</p>
+
+<p>By the way, you can combine Leader Key with <a href="https://karabiner-elements.pqrs.org/" title="Karabiner-Elements">Karabiner Elements</a> to do things like <a href="https://github.com/mikker/LeaderKey.app/wiki/@mikker's-config">launch it on a double <span class="keycombo separated" title="Command"><kbd class="mod symbol">&#8984;</kbd></span> tap</a>.</p>
+
+<p>Like or share this post <a href="https://hachyderm.io/users/ttscoff/statuses/114427074191793796" target="_blank" title="This post on Mastodon">on Mastodon</a>, <a href="https://bsky.app/intent/compose?text=Leader+Key+and+Bunch%0A%0Ahttps%3A%2F%2Fbrettterpstra.com%2F2025%2F04%2F30%2Fleader-key-and-bunch%2F" target="_blank" title="Share on Bluesky">Bluesky</a>, or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2025%2F04%2F30%2Fleader-key-and-bunch%2F&amp;text=Leader+Key+and+Bunch&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2025%2F04%2F30%2Fleader-key-and-bunch%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+<hr style="margin: 40px 0;" />
+
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd
+        like to help out.</a></p>
+<p>Find Brett on <a href="https://hachyderm.io/@ttscoff" rel="me">Mastodon</a>, <a href="https://bsky.app/profile/ttscoff.bsky.social">Bluesky</a>, <a href="https://github.com/ttscoff">GitHub</a>, and <a href="https://brettterpstra.com/elsewhere">everywhere
+        else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/17019130.gif" width="1" />
+]]></content:encoded>
+<pubDate>2025-04-30T08:00:00-05:00</pubDate>
+<pubDate>2025-04-30T08:00:00-05:00</pubDate>
+</item>
+<item>
+<title>Brett Terpstra is open to work</title>
+<link>https://brett.trpstra.net/link/535/17016531/brett-terpstra-is-open-to-work</link>
+<guid>https://brett.trpstra.net/link/535/17016531/brett-terpstra-is-open-to-work</guid>
+<content:encoded><![CDATA[
+
+<p><img class="header" height="226" src="https://cdn3.brettterpstra.com/uploads/2025/04/job-hunting-rb.7481.jpg" style="margin: 0 auto; clear: both;" width="800" /></p>
+<p>After 4 years with Oracle, I find myself free for new work.
+I met a lot of good people there, but am excited about the
+possibility of a new path. I&rsquo;m scared in the short term,
+but optimistic for the long term.</p>
+
+<h3 id="tldr">TL;DR</h3>
+
+<p>I could really use your support right now. Here are the ways to support me:</p>
+
+<ul>
+  <li>Direct support, either <a href="https://brettterpstra.com/support">monthly</a>, or a <a href="https://brettterpstra.com/donate">one-time donation</a></li>
+  <li><a href="https://brettterpstra.com/">Blog Sponsorship/Advertising</a></li>
+  <li>Let me know if you have any job leads (<a href="https://brettterpstra.com#jobhunting">see below</a> for more about what I&rsquo;m looking for)</li>
+  <li>Hire me or recommend me as an <a href="https://brettterpstra.com#consulting">efficiency/automation consultant</a></li>
+</ul>
+
+<h3 id="your-support">Your Support</h3>
+
+<p><span class="pullquote left">
+First off, I&rsquo;d really appreciate your direct support in this
+scary time. If you care about what I do &mdash; use my
+utilities and apps, listen to my podcasts, or have just enjoyed my writing over the last 15 years &mdash; I&rsquo;d love it if you could contribute what you can afford. Sign up for
+<a href="https://brettterpstra.com/support">monthly support</a>, or
+make a <a href="https://brettterpstra.com/donate">one-time donation</a>
+to help defray my costs. I promise to keep making cool
+stuff. Any support is great.
+</span></p>
+
+<p>I&rsquo;ll have some extra time for the next however long,
+so between sending out resumes I&rsquo;ll be working on some
+personal projects. I&rsquo;ll probably focus most on the ones
+that actually pay, so if you have any feature requests for
+<a href="https://marked2app.com">Marked</a>, just want to see <a href="https://nvultra.com">nvUltra</a> out the door, or think I
+should make something like <a href="https://bunchapp.co">Bunch</a> a paid app, please <a href="https://brettterpstra.com/contact/">let me know!</a></p>
+
+<p>Left to my own devices, I tend to make stuff <em>I</em> want but
+which is ostensibly silly. I enjoy making stupid things,
+some of which turn out to be useful to others. But if you
+have a need for a tool you think would also be commercially
+viable, I&rsquo;d love to hear about it.</p>
+
+<h3 id="sponsorship">Sponsorship</h3>
+
+<p>I stopped regularly selling sponsorship spots on this blog because I had a good-paying job and I didn&rsquo;t need/have time for sales.</p>
+
+<p>Despite a decline in traffic in the age of social media, I still have a healthy number of visitors to my single-developer site, I have decent social media reach, and my Google ranking is <em>high</em> for almost all of the topics I talk about.</p>
+
+<p>During this period where I have more time for sales, I&rsquo;m planning to start
+actively offering sponsorships again. If you have a product
+or service you think my tech-and-Apple-related audience
+would appreciate, please reach out. I have reduced rates for
+indie developers!
+<a href="https://brettterpstra.com/sponsorship/">See here for more information</a>.</p>
+
+<h3 id="jobhunting">Job Hunting</h3>
+
+<p>If you know of a job opening at your company you&rsquo;d be
+willing to recommend me for, please contact me. I have romantic
+visions of being an independent developer/writer again, but
+I know full well it doesn&rsquo;t really pay the bills, and I
+don&rsquo;t need to drain what savings and retirement funds I have when I&rsquo;m
+almost 50. So gainful employment would be my preference right now.</p>
+
+<p>I&rsquo;m looking for an employer who values efficiency, creativity, and curiosity, in addition to my seasoned skillset. I&rsquo;m most interested in opportunities in product/service documentation and content creation, Ruby/JavaScript coding<sup id="fnref:lang"><a class="footnote" href="https://brettterpstra.com#fn:lang" rel="footnote">1</a></sup>, and, especially, developer
+relations/advocacy. I could be a great voice for your product in the
+developer community!</p>
+
+<p>My general resume is up at
+<a href="https://brettterpstra.info">brettterpstra.info</a>, but I have
+a wide enough skillset that it needs to be customized for
+different job opportunities. If you have any questions, <a href="https://brettterpstra.com/contact/">let
+me know</a>.</p>
+
+<h3 id="consulting">Consulting</h3>
+
+<p>Making it as a consultant is a dream I have. To be able to swoop in, improve a company, get paid well for it, and then move on to the next company sounds ideal to me. And a lot of the things I can do for a business are things that don&rsquo;t need a full-time position, just a nomadic expert.</p>
+
+<p>If you or your business need efficiency consulting,
+especially around Mac/Unix automation, I&rsquo;d gladly take on
+work while I figure out my next step. I can make dreary duties a thing of the past. I&rsquo;m especially good at improving publishing-type workflows, whether you need to convert a Confluence wiki into Markdown or improve your CMS, I have decades of experience. But I can speed up just about any task, and eliminate wasted hours. I&rsquo;d love to be helping people and companies eradicate redundant work, speed up processes, and improve workflows.</p>
+
+<p>I&rsquo;m also an accomplished web developer, so if you know of anyone who needs a website or a website refresh, I&rsquo;m open to that work as well. I&rsquo;ll be polishing up a page on consulting/web development soon.</p>
+
+<p><span class="pullquote left">
+I think I&rsquo;d be a great consultant within my field of expertise, but I don&rsquo;t really know how to break into consulting. If you currently make a living as a consultant, I&rsquo;d love to, well, consult with you on this. And if you&rsquo;ve hired similar consultants in the past, I&rsquo;d love to interview you about how you found them, what they charged, and whether the consulation was worthwhile. <a href="https://brettterpstra.com/contact/">Hit me up.</a>
+</span></p>
+
+<h3 id="thank-you">Thank you</h3>
+
+<p>Thank you to all the people who&rsquo;ve supported me over the
+years. My total income right now from Memberful and PayPal
+subscriptions amounts to enough to turn around and support
+multiple other developers, plus eat out once or twice a
+month. It doesn&rsquo;t currently pay my bills &mdash; and likely
+never will &mdash; but any support you offer, monetary or otherwise, will be <em>greatly</em> appreciated.</p>
+
+<p>This is a scary time for me, but you all make it a little
+less so. I appreciate you reading my blog and using my
+tools! You can chat with me
+<a href="https://forum.brettterpstra.com">on the forum</a> (assuming I can
+continue to afford to run it), email me at <a href="https://brettterpstra.commailto:b@trpstr.me">b@trpstr.me</a>, or hit me up
+<a href="https://hachyderm.io/@ttscoff">on Mastodon</a>.</p>
+
+<p>Email me at <a href="https://brettterpstra.commailto:b@trpstr.me">b@trpstr.me</a>, or find my full VCard on the
+<a href="https://brettterpstra.com/contact/">contact page</a>. I&rsquo;m also <a href="https://www.linkedin.com/in/brettterpstra/">on LinkedIn</a>, should that be a thing you enjoy.</p>
+<div class="footnotes">
+  <ol>
+    <li id="fn:lang">
+      <p>I&rsquo;m willing to brush up skills on other languages, but I don&rsquo;t really want to start in a Junior position.&nbsp;<a class="reversefootnote" href="https://brettterpstra.com#fnref:lang">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+<p>Like or share this post <a href="https://hachyderm.io/users/ttscoff/statuses/114406018851508582" target="_blank" title="This post on Mastodon">on Mastodon</a>, <a href="https://bsky.app/intent/compose?text=Brett+Terpstra+is+open+to+work%0A%0Ahttps%3A%2F%2Fbrettterpstra.com%2F2025%2F04%2F26%2Fbrett-terpstra-is-open-to-work%2F" target="_blank" title="Share on Bluesky">Bluesky</a>, or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2025%2F04%2F26%2Fbrett-terpstra-is-open-to-work%2F&amp;text=Brett+Terpstra+is+open+to+work&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2025%2F04%2F26%2Fbrett-terpstra-is-open-to-work%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+<hr style="margin: 40px 0;" />
+
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd
+        like to help out.</a></p>
+<p>Find Brett on <a href="https://hachyderm.io/@ttscoff" rel="me">Mastodon</a>, <a href="https://bsky.app/profile/ttscoff.bsky.social">Bluesky</a>, <a href="https://github.com/ttscoff">GitHub</a>, and <a href="https://brettterpstra.com/elsewhere">everywhere
+        else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/17016531.gif" width="1" />
+]]></content:encoded>
+<pubDate>2025-04-26T14:22:00-05:00</pubDate>
+<pubDate>2025-04-26T14:22:00-05:00</pubDate>
+</item>
+<item>
+<title>Supercharged Bookmarking: Hookmark + Linkding Integration</title>
+<link>https://brett.trpstra.net/link/535/17012572/supercharged-bookmarking-hookmark-plus-linkding-integration</link>
+<guid>https://brett.trpstra.net/link/535/17012572/supercharged-bookmarking-hookmark-plus-linkding-integration</guid>
+<content:encoded><![CDATA[
+
+<p><img class="header" height="226" src="https://cdn3.brettterpstra.com/uploads/2025/04/hookmark-linkding-rb.7481.jpg" style="margin: 0 auto; clear: both;" width="800" /></p>
+<p>Hookmark just added Linkding integration, and I&rsquo;m really excited about it. It&rsquo;s a perfect complement to the local bookmarking that Hookmark makes possible.</p>
+
+<p>I love <a href="https://hookproductivity.com/">Hookmark</a>, and it&rsquo;s getting easier to explain as it develops. With Hookmark, you can connect any objects on your Mac to each other, from todo items to documents to notes to web pages. One of the cool features it&rsquo;s had for a while is sync with <a href="https://pinboard.in">Pinboard</a>, where any time you create or copy a link, it generates a Pinboard bookmark automatically. Very handy. But I switched from Pinboard to a <a href="https://bookmarks.scoffb.in">self-hosted Linkding instance</a> a little while ago and lost this integration. I took a shot in the dark and asked Luc to add Linkding integration to Hookmark, and guess what? Here it is.</p>
+
+<p>I&rsquo;m going to turn the rest of this post over to Luc Beaudoin to explain more.</p>
+
+<hr />
+
+<p>By <a href="https://hookproductivity.com/about/">Luc Beaudoin</a> <p><img src="https://cdn3.brettterpstra.com/uploads/2025/04/Luc-Beaudoin-150x150.jpg" /></p></p>
+
+<p>When it comes to organizing digital knowledge, fast and fluid access is everything. That’s why I’m thrilled to share how <a href="https://hookproductivity.com">Hookmark</a>, the contextual linking app from <a href="https://CogSciApps.com">CogSci Apps</a>, which I co-founded, now integrates seamlessly with <a href="https://linkding.link/">Linkding</a> &mdash; a modern, open-source alternative to legacy bookmarking services like Pinboard.</p>
+
+<p>I’ve written previously on <a href="https://hookproductivity.com/blog/2025/03/hookmark-6-8-with-linkding-bookmarking-mysleepbutton-and-more/">Hookmark’s Linkding support</a>, but this post dives deeper for readers of BrettTerpstra.com &mdash; people who appreciate tools that stay out of the way while leveling up your digital workflow.</p>
+
+<h3 id="why-linkding">Why Linkding?</h3>
+
+<p>Pinboard has long been a favorite among power users, but it’s been stagnant for years. Its API works, but innovation has ground to a halt. In contrast, Linkding is an active, community-driven project with features that rival and even surpass Pinboard:</p>
+
+<ul>
+  <li><strong>Modern UI</strong> with responsive design</li>
+  <li><strong>Open source and self-hostable</strong>—ideal for those who value control and privacy</li>
+  <li><strong>Tagging, search, notes, and favicons</strong></li>
+  <li><strong>Active development</strong> with new features and fixes arriving regularly</li>
+</ul>
+
+<p>While Linkding&rsquo;s default interface is minimal and functional, it supports customization through CSS. Users can tailor the UI to their preferences, and community contributions &mdash; such as <a href="https://brettterpstra.com/2024/11/18/a-card-based-layout-for-linkding/">Brett&rsquo;s card-based layout</a>, &mdash;showcase the flexibility of Linkding&rsquo;s design</p>
+
+<p>In short, Linkding feels like what Pinboard could have become, had it kept pace with the needs of today’s knowledge workers.</p>
+
+<h3 id="hookmark-meets-linkding">Hookmark Meets Linkding</h3>
+
+<p><a href="https://hookproductivity.com">Hookmark</a> lets you create persistent links between almost anything on your Mac—files, emails, web pages, tasks, you name it. Think of it as a universal “Copy Link” and “Hook to Copied Link” engine that helps you build a network of contextual references across all your tools.</p>
+
+<p>With Hookmark’s Linkding integration, you can:</p>
+
+<ul>
+  <li><strong>Add bookmarks to linkdking automatically</strong>: Whenever you copy or hook a link with Hookmark, it automatically adds a bookmark in its own database and syncs the bookmark to Linkding</li>
+  <li><strong>Automatically name links</strong>: Hookmark grabs the page title from Linkding, so your hooks are always readable.</li>
+  <li><strong>Use your own infrastructure</strong>: If you self-host Linkding, you maintain full control over your links—with zero dependence on third-party services.</li>
+</ul>
+
+<p>This integration is perfect for developers, researchers, writers, or anyone who works with a web of information and wants it just a keystroke away.</p>
+
+<h3 id="practical-example">Practical Example</h3>
+
+<p>Let’s say you’ve saved a Linkding bookmark to a key <a href="https://developer.apple.com/documentation/">Apple documentation page</a>. With Hookmark, you can &ldquo;hook&rdquo; (i.e., bidirectionally link)  that directly to:</p>
+
+<ul>
+  <li>A note in Obsidian or Bear</li>
+  <li>A task in OmniFocus or Things</li>
+  <li>A project folder in Finder</li>
+  <li>A local markdown file</li>
+</ul>
+
+<p>Hooking a file automatically bookmarks it in your Linkding database. Now, whenever you’re in that file or app, you’re just one click or shortcut away from jumping to that bookmarked web page—even if you closed your browser days ago.</p>
+
+<p>That’s what Hookmark is all about: reducing friction in your workflow by linking the resources that matter <em>in context</em>.</p>
+
+<h3 id="try-it-out">Try It Out</h3>
+
+<p>To enable the integration:</p>
+
+<p><img src="https://cdn3.brettterpstra.com/uploads/2025/04/hookmark-config-800.png" /></p>
+
+<ol>
+  <li><a href="https://github.com/sissbruecker/linkding#installation">Install Linkding</a> (self-hosted or via a service like Docker or CapRover)</li>
+  <li>Configure Linkding in Hookmark&rsquo;s Settings -&gt; Services (get your API key from the Settings -&gt; Integrations page in your Linkding)</li>
+  <li>Use Hookmark’s “Copy Link” or “Hook to Copied Link” on any web page</li>
+  <li>Enjoy effortless navigation between your local and online resources, as well as archived bookmarks of pages in your Linkding</li>
+</ol>
+
+<h3 id="were-in-motion">We&rsquo;re in motion</h3>
+
+<p>Like Linkding, Hookmark is not standing still. We intend to add more integration with bookmarking services, such as synchronizing tags between Hookmark and Linkding — in both directions. We will also provide a mechanism to import all your Linkding bookmarks into Hookmark&ndash;including their tags. We&rsquo;ll add the ability to add a note to your bookmark, and sync the note with Linkding.</p>
+
+<h3 id="closing-thoughts">Closing Thoughts</h3>
+
+<p>In a time when knowledge is scattered across apps, tabs, and cloud services, tools like Hookmark and Linkding help us <em>re-own</em> our information space. Their integration brings together the best of contextual computing and modern bookmarking.</p>
+
+<p>If you value clarity, speed, and autonomy in your digital workflows, give <a href="https://hookproductivity.com/">Hookmark</a> + Linkding a spin. You might never go back.</p>
+
+
+<p>Like or share this post <a href="https://hachyderm.io/users/ttscoff/statuses/114383592615197874" target="_blank" title="This post on Mastodon">on Mastodon</a>, <a href="https://bsky.app/intent/compose?text=Supercharged+Bookmarking%3A+Hookmark+%2B+Linkding+Integration%0A%0Ahttps%3A%2F%2Fbrettterpstra.com%2F2025%2F04%2F22%2Fsupercharged-bookmarking-hookmark-plus-linkding-integration%2F" target="_blank" title="Share on Bluesky">Bluesky</a>, or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2025%2F04%2F22%2Fsupercharged-bookmarking-hookmark-plus-linkding-integration%2F&amp;text=Supercharged+Bookmarking%3A+Hookmark+%2B+Linkding+Integration&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2025%2F04%2F22%2Fsupercharged-bookmarking-hookmark-plus-linkding-integration%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+<hr style="margin: 40px 0;" />
+
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd
+        like to help out.</a></p>
+<p>Find Brett on <a href="https://hachyderm.io/@ttscoff" rel="me">Mastodon</a>, <a href="https://bsky.app/profile/ttscoff.bsky.social">Bluesky</a>, <a href="https://github.com/ttscoff">GitHub</a>, and <a href="https://brettterpstra.com/elsewhere">everywhere
+        else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/17012572.gif" width="1" />
+]]></content:encoded>
+<pubDate>2025-04-22T15:38:00-05:00</pubDate>
+<pubDate>2025-04-22T15:38:00-05:00</pubDate>
+</item>
+<item>
+<title>Off(-White): I made a stupid thing this morning</title>
+<link>https://brett.trpstra.net/link/535/17006729/off-white-i-made-a-stupid-thing-this-morning</link>
+<guid>https://brett.trpstra.net/link/535/17006729/off-white-i-made-a-stupid-thing-this-morning</guid>
+<content:encoded><![CDATA[
+
+<p><img src="https://cdn3.brettterpstra.com/uploads/2025/04/off-white-rb.jpg" /></p>
+
+<p>I&rsquo;ve been waking up around 4 every morning, which I&rsquo;m grateful for because 4&ndash;8am is the only time I really have for coding on my own projects. The lack of sleep is getting to me, but I&rsquo;ve been productive. I&rsquo;m currently working on <a href="https://github.com/ttscoff/random-words">a new Lorem Ipsum generator</a> in Ruby that will function as a library, a CLI, and the back end for <a href="https://brettterpstra.com/md-lipsum/">md-lipsum</a>. It&rsquo;s not ready for prime time yet, but it&rsquo;s coming along.</p>
+
+<p>But this morning I got distracted by trying to create better off-white backgrounds for web pages. I know it&rsquo;s a simple task with any color picker, but I have trouble getting it fine-tuned enough with sliders, and guessing different hex codes frustrates me. So I made <a href="https://brettterpstra.com//off">a little thing</a> for fine-tuning off-white and off-black background colors.</p>
+
+<p><img src="https://cdn3.brettterpstra.com/uploads/2025/04/offwhite.jpg" /></p>
+
+<p>It&rsquo;s just a hue, saturation, lightness slider, but instead of the lightness going from 0&ndash;100, it only goes from 90&ndash;100, offering granular control even for clumsy users, and then updates the entire background with the selected hue/tint so you can see how it will look on a page. The &ldquo;Off Black&rdquo; version of it changes the lightness slider to 0&ndash;40, offering a little more range for those dark grays.</p>
+
+<p>All put together, it&rsquo;s just called &ldquo;Off.&rdquo; It&rsquo;s for me, but I made it available here just in case somebody else might have a use for it. I amused myself with a little CSS and vanilla JS to make the slider backgrounds work, so at least take a look at it and <a href="https://brettterpstra.com//off">enjoy my latest stupid creation</a>.</p>
+
+<p>Like or share this post <a href="https://hachyderm.io/users/ttscoff/statuses/114343007498417287" target="_blank" title="This post on Mastodon">on Mastodon</a>, <a href="https://bsky.app/intent/compose?text=Off%28-White%29%3A+I+made+a+stupid+thing+this+morning%0A%0Ahttps%3A%2F%2Fbrettterpstra.com%2F2025%2F04%2F15%2Foff-white-i-made-a-stupid-thing-this-morning%2F" target="_blank" title="Share on Bluesky">Bluesky</a>, or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2025%2F04%2F15%2Foff-white-i-made-a-stupid-thing-this-morning%2F&amp;text=Off%28-White%29%3A+I+made+a+stupid+thing+this+morning&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2025%2F04%2F15%2Foff-white-i-made-a-stupid-thing-this-morning%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+<hr style="margin: 40px 0;" />
+
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd
+        like to help out.</a></p>
+<p>Find Brett on <a href="https://hachyderm.io/@ttscoff" rel="me">Mastodon</a>, <a href="https://bsky.app/profile/ttscoff.bsky.social">Bluesky</a>, <a href="https://github.com/ttscoff">GitHub</a>, and <a href="https://brettterpstra.com/elsewhere">everywhere
+        else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/17006729.gif" width="1" />
+]]></content:encoded>
+<pubDate>2025-04-15T11:36:00-05:00</pubDate>
+<pubDate>2025-04-15T11:36:00-05:00</pubDate>
+</item>
 
 <item>
 <title>Markdown Lipsum API v3</title>
