@@ -57540,3 +57540,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2025-05-06 05:12:53.252544
+------------------------------------------------------
+Started: 2025-05-06 06:24:46.349657
+Existing_entries: 817
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [【开发者自荐】一句话AI生成智能日程](https://meta.appinn.net/t/topic/71082)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2025-05-06 06:24:49.336815
