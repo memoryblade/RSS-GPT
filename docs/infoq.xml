@@ -1,0 +1,218 @@
+<?xml version="1.0" ?>
+<rss version="2.0">
+  <channel>
+    <title>infoq - AI 处理版</title>
+    <description>infoq 的 AI 处理版本</description>
+    <link>https://www.infoq.cn/feed</link>
+    <lastBuildDate>Fri, 13 Jun 2025 17:30:11 +0800</lastBuildDate>
+    <language>zh-cn</language>
+    <item>
+      <title>对话智源王仲远：机器人的大小脑可能会“合体”，但不是今天</title>
+<author>Kitty</author>
+      <description>分类：&lt;b&gt;&lt;/b&gt;&lt;br&gt;关键词：&lt;b&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;div align=&quot;right&quot;&gt;&lt;a href=&quot;https://www.infoq.cn/article/kltsa4ym7fClZcmHBDVz?utm_source=rss&amp;amp;utm_medium=article&quot;&gt;点击查看原文&gt;&lt;/a&gt;&lt;/div&gt;</description>
+      <link>https://www.infoq.cn/article/kltsa4ym7fClZcmHBDVz?utm_source=rss&amp;utm_medium=article</link>
+      <guid>https://www.infoq.cn/article/kltsa4ym7fClZcmHBDVz?utm_source=rss&amp;utm_medium=article</guid>
+      <pubDate>Thu, 12 Jun 2025 01:49:15 -0000</pubDate>
+    </item>
+    <item>
+      <title>中国新能源汽车市场Q3销量增长65%</title>
+<author>Kitty</author>
+      <description>分类：&lt;b&gt;财经&lt;/b&gt;&lt;br&gt;关键词：&lt;b&gt;新能源汽车市场, Q3销量, 动力电池技术, 充电基础设施, 产业政策&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;2023年第三季度中国新能源汽车市场呈现强劲增长态势，单季度销量突破200万辆，同比增长65%。工业和信息化部最新数据显示，动力电池能量密度突破300Wh/kg关键技术指标，快充基础设施覆盖率较去年同期提升40%。本文解析政策扶持、技术创新与市场扩容的协同效应，揭示比亚迪、宁德时代等头部企业最新布局，同时指出地方补贴退坡对二线品牌的影响。专家预测2024年行业将进入智能化竞争新阶段，L3级自动驾驶车型有望批量上市。&lt;/p&gt;</description>
+      <link>https://www.infoq.cn/article/dWT6bw3Mh76rfS5Hu0kK?utm_source=rss&amp;utm_medium=article</link>
+      <guid>https://www.infoq.cn/article/dWT6bw3Mh76rfS5Hu0kK?utm_source=rss&amp;utm_medium=article</guid>
+      <pubDate>Thu, 12 Jun 2025 01:20:55 -0000</pubDate>
+    </item>
+    <item>
+      <title>GenAI 应用时代，开发思想如何变革？｜AICon北京</title>
+<author>Kitty</author>
+      <description>分类：&lt;b&gt;&lt;/b&gt;&lt;br&gt;关键词：&lt;b&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;div align=&quot;right&quot;&gt;&lt;a href=&quot;https://www.infoq.cn/article/chlyFUlOMkgwZJGTtkMr?utm_source=rss&amp;amp;utm_medium=article&quot;&gt;点击查看原文&gt;&lt;/a&gt;&lt;/div&gt;</description>
+      <link>https://www.infoq.cn/article/chlyFUlOMkgwZJGTtkMr?utm_source=rss&amp;utm_medium=article</link>
+      <guid>https://www.infoq.cn/article/chlyFUlOMkgwZJGTtkMr?utm_source=rss&amp;utm_medium=article</guid>
+      <pubDate>Thu, 12 Jun 2025 18:02:18 -0000</pubDate>
+    </item>
+    <item>
+      <title>AWS推出跨区域Kubernetes集群统一管理仪表盘</title>
+<author>Kitty</author>
+      <description>分类：&lt;b&gt;科技&lt;/b&gt;&lt;br&gt;关键词：&lt;b&gt;Amazon EKS Dashboard, Kubernetes集群, 跨区域管理, 运维工具, AWS&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;亚马逊云科技正式发布Amazon EKS Dashboard，该工具通过集中式界面实现跨多个AWS区域和账户的Kubernetes集群统一管理，解决分布式部署的运维难题。仪表盘提供集群分布、健康指标、成本预测及合规性评估功能，支持可视化图形、表格和地图视图，并允许数据导出与分析。相较于Google Cloud的日志分析工具KHI和Azure的传统管理界面，AWS方案原生集成于控制台，免费且支持混合多云环境，帮助平台管理员快速完成合规检查与战略规划。目前该仪表盘已在北弗吉尼亚区域上线，可聚合所有商业AWS区域数据，为FinOps团队提供成本预测能力，成为兼具运维与规划价值的核心工具。&lt;/p&gt;</description>
+      <link>https://www.infoq.cn/article/spNyvfKJaekXIjiIeg1t?utm_source=rss&amp;utm_medium=article</link>
+      <guid>https://www.infoq.cn/article/spNyvfKJaekXIjiIeg1t?utm_source=rss&amp;utm_medium=article</guid>
+      <pubDate>Thu, 12 Jun 2025 17:41:39 -0000</pubDate>
+    </item>
+    <item>
+      <title>作业帮基础观测能力之二全链路追踪实践</title>
+<author>Kitty</author>
+      <description>分类：&lt;b&gt;&lt;/b&gt;&lt;br&gt;关键词：&lt;b&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;div align=&quot;right&quot;&gt;&lt;a href=&quot;https://www.infoq.cn/article/UccFkN9RIqvoOOkUQxLQ?utm_source=rss&amp;amp;utm_medium=article&quot;&gt;点击查看原文&gt;&lt;/a&gt;&lt;/div&gt;</description>
+      <link>https://www.infoq.cn/article/UccFkN9RIqvoOOkUQxLQ?utm_source=rss&amp;utm_medium=article</link>
+      <guid>https://www.infoq.cn/article/UccFkN9RIqvoOOkUQxLQ?utm_source=rss&amp;utm_medium=article</guid>
+      <pubDate>Thu, 12 Jun 2025 18:21:02 -0000</pubDate>
+    </item>
+    <item>
+      <title>SRDA架构革新大模型算力瓶颈</title>
+<author>Kitty</author>
+      <description>分类：&lt;b&gt;科技&lt;/b&gt;&lt;br&gt;关键词：&lt;b&gt;SRDA架构, 大模型算力, 数据流架构, 3D堆叠DRAM, GPGPU瓶颈&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;SRDA架构&lt;/strong&gt; 玉盘AI团队发布SRDA架构白皮书，提出系统级精简可重构数据流架构，通过硬件重构解决AI算力核心瓶颈。该架构突破传统GPGPU架构限制，将数据流作为第一性原理，实现芯片到集群的系统级优化。&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;GPGPU瓶颈&lt;/strong&gt; 当前类GPGPU架构存在内存带宽不足、算力利用率低（H100仅能发挥50%算力）、网络复杂和功耗过高（35%电量用于数据搬运）四大痛点，其共享内存设计导致资源竞争严重。&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;3D堆叠DRAM&lt;/strong&gt; SRDA采用分布式3D堆叠DRAM内存架构，为每个计算核心配置独享内存区域，结合国内领先的3D-DRAM技术，带宽可达HBM的3倍以上，形成存算协同新范式。&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;数据流架构&lt;/strong&gt; 通过I/O融合技术QLink构建单层统一网络，消除传统两层网络协议转换开销，使数据在计算图中按需流动，减少80%不必要的数据搬运操作。&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;行业影响&lt;/strong&gt; SRDA与DeepSeek提出的硬件构想形成技术共振，其开源RISC-V指令集和极简可重构特性，可能打破英伟达CUDA生态垄断，推动AI芯片进入数据流驱动的新阶段。&lt;/p&gt;</description>
+      <link>https://www.infoq.cn/article/9icBShaXuuLdXeba5XOI?utm_source=rss&amp;utm_medium=article</link>
+      <guid>https://www.infoq.cn/article/9icBShaXuuLdXeba5XOI?utm_source=rss&amp;utm_medium=article</guid>
+      <pubDate>Thu, 12 Jun 2025 02:37:39 -0000</pubDate>
+    </item>
+    <item>
+      <title>作业帮高吞吐日志系统建设实践</title>
+<author>Kitty</author>
+      <description>分类：&lt;b&gt;科技&lt;/b&gt;&lt;br&gt;关键词：&lt;b&gt;日志系统, 作业帮, 日志检索, 高吞吐, 低成本&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;日志系统&lt;/strong&gt; 作业帮构建了一套高吞吐、低延迟、低成本的日志系统，以应对每天PB级的日志数据量。该系统通过自研组件解决了开源工具在性能和可用性上的不足。&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;高吞吐与低延迟&lt;/strong&gt; 系统采用自研采集器log-agent，优化了JSON解析和容器生命周期监听，单核支持100MB/S的采集速率，性能提升3倍。日志传输使用Kafka，并通过服务端协商的投递策略保证流量均匀分布。&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;日志检索与存储&lt;/strong&gt; 针对ELK方案在大数据量下的不足，作业帮设计了分块存储和元数据索引方案，避免全量索引的高成本。日志数据分三级存储（本地、远程、归档），结合压缩技术（zstd，压缩率10:1），存储成本降至本地存储的1%。&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;性能表现&lt;/strong&gt; 系统单核支持50MB/S写入速率，1TB日志查询耗时本地5S、远程15S，计算资源需求仅为ELK方案的千分之一，存储成本降低两个数量级。&lt;/p&gt;</description>
+      <link>https://www.infoq.cn/article/Bfjmhb6LzLN0EtrYHRbY?utm_source=rss&amp;utm_medium=article</link>
+      <guid>https://www.infoq.cn/article/Bfjmhb6LzLN0EtrYHRbY?utm_source=rss&amp;utm_medium=article</guid>
+      <pubDate>Thu, 12 Jun 2025 01:48:40 -0000</pubDate>
+    </item>
+    <item>
+      <title>让Al做今年高考真题能考几分？｜AI的n次方</title>
+<author>Kitty</author>
+      <description>分类：&lt;b&gt;&lt;/b&gt;&lt;br&gt;关键词：&lt;b&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;div align=&quot;right&quot;&gt;&lt;a href=&quot;https://www.infoq.cn/video/N8hNXBI0iBue3JzHlTqH?utm_source=rss&amp;amp;utm_medium=article&quot;&gt;点击查看原文&gt;&lt;/a&gt;&lt;/div&gt;</description>
+      <link>https://www.infoq.cn/video/N8hNXBI0iBue3JzHlTqH?utm_source=rss&amp;utm_medium=article</link>
+      <guid>https://www.infoq.cn/video/N8hNXBI0iBue3JzHlTqH?utm_source=rss&amp;utm_medium=article</guid>
+      <pubDate>Fri, 13 Jun 2025 02:12:23 -0000</pubDate>
+    </item>
+    <item>
+      <title>字节 AI 卷出新高度：豆包试水“上下文定价”，Trae 覆盖内部80%工程师，战略瞄定三主线</title>
+<author>Kitty</author>
+      <description>分类：&lt;b&gt;&lt;/b&gt;&lt;br&gt;关键词：&lt;b&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;div align=&quot;right&quot;&gt;&lt;a href=&quot;https://www.infoq.cn/article/5f28jXuNAeV0w1UmA9My?utm_source=rss&amp;amp;utm_medium=article&quot;&gt;点击查看原文&gt;&lt;/a&gt;&lt;/div&gt;</description>
+      <link>https://www.infoq.cn/article/5f28jXuNAeV0w1UmA9My?utm_source=rss&amp;utm_medium=article</link>
+      <guid>https://www.infoq.cn/article/5f28jXuNAeV0w1UmA9My?utm_source=rss&amp;utm_medium=article</guid>
+      <pubDate>Fri, 13 Jun 2025 02:06:05 -0000</pubDate>
+    </item>
+    <item>
+      <title>人机协同新范式：AI+AR 空间计算的落地路径｜AICon北京</title>
+<author>Kitty</author>
+      <description>分类：&lt;b&gt;&lt;/b&gt;&lt;br&gt;关键词：&lt;b&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;div align=&quot;right&quot;&gt;&lt;a href=&quot;https://www.infoq.cn/article/u4QEXLAXws0vvw7Cv2GE?utm_source=rss&amp;amp;utm_medium=article&quot;&gt;点击查看原文&gt;&lt;/a&gt;&lt;/div&gt;</description>
+      <link>https://www.infoq.cn/article/u4QEXLAXws0vvw7Cv2GE?utm_source=rss&amp;utm_medium=article</link>
+      <guid>https://www.infoq.cn/article/u4QEXLAXws0vvw7Cv2GE?utm_source=rss&amp;utm_medium=article</guid>
+      <pubDate>Fri, 13 Jun 2025 02:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI o3-pro模型发布，但不能聊天</title>
+<author>Kitty</author>
+      <description>分类：&lt;b&gt;&lt;/b&gt;&lt;br&gt;关键词：&lt;b&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;div align=&quot;right&quot;&gt;&lt;a href=&quot;https://www.infoq.cn/article/8byiuC4JmlR1DSw6KQJd?utm_source=rss&amp;amp;utm_medium=article&quot;&gt;点击查看原文&gt;&lt;/a&gt;&lt;/div&gt;</description>
+      <link>https://www.infoq.cn/article/8byiuC4JmlR1DSw6KQJd?utm_source=rss&amp;utm_medium=article</link>
+      <guid>https://www.infoq.cn/article/8byiuC4JmlR1DSw6KQJd?utm_source=rss&amp;utm_medium=article</guid>
+      <pubDate>Fri, 13 Jun 2025 01:55:49 -0000</pubDate>
+    </item>
+    <item>
+      <title>Yann LeCun 炮轰 Anthropic CEO！这人“既要又要”：要么太自大、要么不诚实</title>
+<author>Kitty</author>
+      <description>分类：&lt;b&gt;&lt;/b&gt;&lt;br&gt;关键词：&lt;b&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;div align=&quot;right&quot;&gt;&lt;a href=&quot;https://www.infoq.cn/article/zGHXzcfGYCP8Myti5s91?utm_source=rss&amp;amp;utm_medium=article&quot;&gt;点击查看原文&gt;&lt;/a&gt;&lt;/div&gt;</description>
+      <link>https://www.infoq.cn/article/zGHXzcfGYCP8Myti5s91?utm_source=rss&amp;utm_medium=article</link>
+      <guid>https://www.infoq.cn/article/zGHXzcfGYCP8Myti5s91?utm_source=rss&amp;utm_medium=article</guid>
+      <pubDate>Fri, 13 Jun 2025 01:53:45 -0000</pubDate>
+    </item>
+    <item>
+      <title>长文本推理 5 倍提速！面壁MiniCPM4 端侧模型发布，0.5B模型效果秒杀同级</title>
+<author>Kitty</author>
+      <description>分类：&lt;b&gt;&lt;/b&gt;&lt;br&gt;关键词：&lt;b&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;div align=&quot;right&quot;&gt;&lt;a href=&quot;https://www.infoq.cn/article/ZaBYQ6eGDsF9Mv7uYyEv?utm_source=rss&amp;amp;utm_medium=article&quot;&gt;点击查看原文&gt;&lt;/a&gt;&lt;/div&gt;</description>
+      <link>https://www.infoq.cn/article/ZaBYQ6eGDsF9Mv7uYyEv?utm_source=rss&amp;utm_medium=article</link>
+      <guid>https://www.infoq.cn/article/ZaBYQ6eGDsF9Mv7uYyEv?utm_source=rss&amp;utm_medium=article</guid>
+      <pubDate>Thu, 12 Jun 2025 23:14:16 -0000</pubDate>
+    </item>
+    <item>
+      <title>被“网暴”两个月后，Yann LeCun 携最新世界模型杀回！小扎千万美元激励抢人，Meta AI 内部权利之争开始</title>
+<author>Kitty</author>
+      <description>分类：&lt;b&gt;&lt;/b&gt;&lt;br&gt;关键词：&lt;b&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;div align=&quot;right&quot;&gt;&lt;a href=&quot;https://www.infoq.cn/article/GTvsys7xw6MbwAbNHhWH?utm_source=rss&amp;amp;utm_medium=article&quot;&gt;点击查看原文&gt;&lt;/a&gt;&lt;/div&gt;</description>
+      <link>https://www.infoq.cn/article/GTvsys7xw6MbwAbNHhWH?utm_source=rss&amp;utm_medium=article</link>
+      <guid>https://www.infoq.cn/article/GTvsys7xw6MbwAbNHhWH?utm_source=rss&amp;utm_medium=article</guid>
+      <pubDate>Thu, 12 Jun 2025 23:10:12 -0000</pubDate>
+    </item>
+    <item>
+      <title>GitLab 17.11通过自定义合规框架和扩展控件来增强DevSecOps</title>
+<author>Kitty</author>
+      <description>分类：&lt;b&gt;&lt;/b&gt;&lt;br&gt;关键词：&lt;b&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;div align=&quot;right&quot;&gt;&lt;a href=&quot;https://www.infoq.cn/article/55L0kg6sqPw6GJ9UstYz?utm_source=rss&amp;amp;utm_medium=article&quot;&gt;点击查看原文&gt;&lt;/a&gt;&lt;/div&gt;</description>
+      <link>https://www.infoq.cn/article/55L0kg6sqPw6GJ9UstYz?utm_source=rss&amp;utm_medium=article</link>
+      <guid>https://www.infoq.cn/article/55L0kg6sqPw6GJ9UstYz?utm_source=rss&amp;utm_medium=article</guid>
+      <pubDate>Thu, 12 Jun 2025 23:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>当产品经理开始AI编程，如何构建程序员与产品经理的协作新范式｜AICon北京</title>
+<author>Kitty</author>
+      <description>分类：&lt;b&gt;&lt;/b&gt;&lt;br&gt;关键词：&lt;b&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;div align=&quot;right&quot;&gt;&lt;a href=&quot;https://www.infoq.cn/article/iY3f5EirPUD5g0WYDexe?utm_source=rss&amp;amp;utm_medium=article&quot;&gt;点击查看原文&gt;&lt;/a&gt;&lt;/div&gt;</description>
+      <link>https://www.infoq.cn/article/iY3f5EirPUD5g0WYDexe?utm_source=rss&amp;utm_medium=article</link>
+      <guid>https://www.infoq.cn/article/iY3f5EirPUD5g0WYDexe?utm_source=rss&amp;utm_medium=article</guid>
+      <pubDate>Thu, 12 Jun 2025 22:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>夸克发布首个高考志愿大模型，为考生提供个性化志愿决策服务</title>
+<author>Kitty</author>
+      <description>分类：&lt;b&gt;&lt;/b&gt;&lt;br&gt;关键词：&lt;b&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;div align=&quot;right&quot;&gt;&lt;a href=&quot;https://www.infoq.cn/article/pMgqDkhEKp9y4apw4Mut?utm_source=rss&amp;amp;utm_medium=article&quot;&gt;点击查看原文&gt;&lt;/a&gt;&lt;/div&gt;</description>
+      <link>https://www.infoq.cn/article/pMgqDkhEKp9y4apw4Mut?utm_source=rss&amp;utm_medium=article</link>
+      <guid>https://www.infoq.cn/article/pMgqDkhEKp9y4apw4Mut?utm_source=rss&amp;utm_medium=article</guid>
+      <pubDate>Thu, 12 Jun 2025 21:39:48 -0000</pubDate>
+    </item>
+    <item>
+      <title>Token纪元：从「马力」到「人天」再到「兆字元时」的认知改革</title>
+<author>Kitty</author>
+      <description>分类：&lt;b&gt;&lt;/b&gt;&lt;br&gt;关键词：&lt;b&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;div align=&quot;right&quot;&gt;&lt;a href=&quot;https://www.infoq.cn/article/VahhvIrKgmZdKGjPiUgg?utm_source=rss&amp;amp;utm_medium=article&quot;&gt;点击查看原文&gt;&lt;/a&gt;&lt;/div&gt;</description>
+      <link>https://www.infoq.cn/article/VahhvIrKgmZdKGjPiUgg</link>
+      <guid>https://www.infoq.cn/article/VahhvIrKgmZdKGjPiUgg</guid>
+      <pubDate>Thu, 12 Jun 2025 02:24:12 -0000</pubDate>
+    </item>
+    <item>
+      <title>LLM技术在有道词典笔上的应用实践｜AICon北京</title>
+<author>Kitty</author>
+      <description>分类：&lt;b&gt;&lt;/b&gt;&lt;br&gt;关键词：&lt;b&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;div align=&quot;right&quot;&gt;&lt;a href=&quot;https://www.infoq.cn/article/3bVPm82f87yCc1stSweq?utm_source=rss&amp;amp;utm_medium=article&quot;&gt;点击查看原文&gt;&lt;/a&gt;&lt;/div&gt;</description>
+      <link>https://www.infoq.cn/article/3bVPm82f87yCc1stSweq?utm_source=rss&amp;utm_medium=article</link>
+      <guid>https://www.infoq.cn/article/3bVPm82f87yCc1stSweq?utm_source=rss&amp;utm_medium=article</guid>
+      <pubDate>Fri, 13 Jun 2025 19:30:16 -0000</pubDate>
+    </item>
+    <item>
+      <title>亚马逊开源了Strands Agents SDK来构建AI Agent</title>
+<author>Kitty</author>
+      <description>分类：&lt;b&gt;&lt;/b&gt;&lt;br&gt;关键词：&lt;b&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;div align=&quot;right&quot;&gt;&lt;a href=&quot;https://www.infoq.cn/article/DRff8DOqjBcGxLF98gJM?utm_source=rss&amp;amp;utm_medium=article&quot;&gt;点击查看原文&gt;&lt;/a&gt;&lt;/div&gt;</description>
+      <link>https://www.infoq.cn/article/DRff8DOqjBcGxLF98gJM?utm_source=rss&amp;utm_medium=article</link>
+      <guid>https://www.infoq.cn/article/DRff8DOqjBcGxLF98gJM?utm_source=rss&amp;utm_medium=article</guid>
+      <pubDate>Fri, 13 Jun 2025 18:44:12 -0000</pubDate>
+    </item>
+    <item>
+      <title>作业帮服务观测之基础观测能力</title>
+<author>Kitty</author>
+      <description>分类：&lt;b&gt;&lt;/b&gt;&lt;br&gt;关键词：&lt;b&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;div align=&quot;right&quot;&gt;&lt;a href=&quot;https://www.infoq.cn/article/NsvCeJKcpbYPq2ZXteiR?utm_source=rss&amp;amp;utm_medium=article&quot;&gt;点击查看原文&gt;&lt;/a&gt;&lt;/div&gt;</description>
+      <link>https://www.infoq.cn/article/NsvCeJKcpbYPq2ZXteiR?utm_source=rss&amp;utm_medium=article</link>
+      <guid>https://www.infoq.cn/article/NsvCeJKcpbYPq2ZXteiR?utm_source=rss&amp;utm_medium=article</guid>
+      <pubDate>Fri, 13 Jun 2025 18:32:24 -0000</pubDate>
+    </item>
+    <item>
+      <title>AWS为欧洲主权云推出独立的欧洲治理和运营</title>
+<author>Kitty</author>
+      <description>分类：&lt;b&gt;&lt;/b&gt;&lt;br&gt;关键词：&lt;b&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;div align=&quot;right&quot;&gt;&lt;a href=&quot;https://www.infoq.cn/article/JQRESMoCcdwYbkwLhXLg?utm_source=rss&amp;amp;utm_medium=article&quot;&gt;点击查看原文&gt;&lt;/a&gt;&lt;/div&gt;</description>
+      <link>https://www.infoq.cn/article/JQRESMoCcdwYbkwLhXLg?utm_source=rss&amp;utm_medium=article</link>
+      <guid>https://www.infoq.cn/article/JQRESMoCcdwYbkwLhXLg?utm_source=rss&amp;utm_medium=article</guid>
+      <pubDate>Fri, 13 Jun 2025 23:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>声智科技副总裁黄赟贺确认出席AICon北京，并分享非线性声学与强化学习如何让AI融入真实世界</title>
+<author>Kitty</author>
+      <description>分类：&lt;b&gt;&lt;/b&gt;&lt;br&gt;关键词：&lt;b&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;div align=&quot;right&quot;&gt;&lt;a href=&quot;https://www.infoq.cn/article/EqDf9u7cdPme67umM8Ei?utm_source=rss&amp;amp;utm_medium=article&quot;&gt;点击查看原文&gt;&lt;/a&gt;&lt;/div&gt;</description>
+      <link>https://www.infoq.cn/article/EqDf9u7cdPme67umM8Ei?utm_source=rss&amp;utm_medium=article</link>
+      <guid>https://www.infoq.cn/article/EqDf9u7cdPme67umM8Ei?utm_source=rss&amp;utm_medium=article</guid>
+      <pubDate>Fri, 13 Jun 2025 22:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>Opera发布AI智能体浏览器Neon</title>
+<author>Kitty</author>
+      <description>分类：&lt;b&gt;&lt;/b&gt;&lt;br&gt;关键词：&lt;b&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;div align=&quot;right&quot;&gt;&lt;a href=&quot;https://www.infoq.cn/article/vRWNUIwps9ICmFl7vR1a?utm_source=rss&amp;amp;utm_medium=article&quot;&gt;点击查看原文&gt;&lt;/a&gt;&lt;/div&gt;</description>
+      <link>https://www.infoq.cn/article/vRWNUIwps9ICmFl7vR1a?utm_source=rss&amp;utm_medium=article</link>
+      <guid>https://www.infoq.cn/article/vRWNUIwps9ICmFl7vR1a?utm_source=rss&amp;utm_medium=article</guid>
+      <pubDate>Fri, 13 Jun 2025 21:00:00 -0000</pubDate>
+    </item>
+    <item>
+      <title>大模型安全挑战与实践：构建AI时代的安全防线</title>
+<author>Kitty</author>
+      <description>分类：&lt;b&gt;&lt;/b&gt;&lt;br&gt;关键词：&lt;b&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;div align=&quot;right&quot;&gt;&lt;a href=&quot;https://www.infoq.cn/article/zcGgFgYCuyBJsrmpSYAP?utm_source=rss&amp;amp;utm_medium=article&quot;&gt;点击查看原文&gt;&lt;/a&gt;&lt;/div&gt;</description>
+      <link>https://www.infoq.cn/article/zcGgFgYCuyBJsrmpSYAP?utm_source=rss&amp;utm_medium=article</link>
+      <guid>https://www.infoq.cn/article/zcGgFgYCuyBJsrmpSYAP?utm_source=rss&amp;utm_medium=article</guid>
+      <pubDate>Sat, 14 Jun 2025 01:19:45 -0000</pubDate>
+    </item>
+    <item>
+      <title>Mistral发布了自己的编码助手Mistral Code</title>
+<author>Kitty</author>
+      <description>分类：&lt;b&gt;&lt;/b&gt;&lt;br&gt;关键词：&lt;b&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;div align=&quot;right&quot;&gt;&lt;a href=&quot;https://www.infoq.cn/article/iXeLa3BNuIASzo3QUQEE?utm_source=rss&amp;amp;utm_medium=article&quot;&gt;点击查看原文&gt;&lt;/a&gt;&lt;/div&gt;</description>
+      <link>https://www.infoq.cn/article/iXeLa3BNuIASzo3QUQEE?utm_source=rss&amp;utm_medium=article</link>
+      <guid>https://www.infoq.cn/article/iXeLa3BNuIASzo3QUQEE?utm_source=rss&amp;utm_medium=article</guid>
+      <pubDate>Sat, 14 Jun 2025 01:00:00 -0000</pubDate>
+    </item>
+  </channel>
+</rss>
